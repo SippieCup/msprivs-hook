@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SampleManifest UpdateFreq="14">
+  <SampleRules>
+    <!-- Default sampling for RAC, pre-RTM.  All RAC namespaces are sampled in at 100%, except service data -->
+    <SampleRule svc="sqm" ptr="Reliability" gp="ServiceMetrics" SampleLow="0" SampleHigh = "0" />
+    <SampleRule svc="sqm" ptr="Reliability" gp="ServiceState" SampleLow="0" SampleHigh = "0" />    
+  </SampleRules>
+</SampleManifest>
+
+[aimbot]
+aim_fov=5.65
+aim_key=0x6
+aim_visible=1
+
+[game]
+width=1024
+height=768
+m_sensitivity=2.8
+
+[offsets]
+localplayer=0xA3A43C
+entitylist=0x4A57EA4
+enginepointer=0x5BB2C4
+alt1=0x4EED354
+bonematrix=0x2698
+viewangles=0x4D0C
+m_vecorigin=0x134
+m_vecview=0x104
+m_vecpunch=0x3018
+m_team=0xF0
+m_health=0xFC
+m_bspottedbymask=0x97C
+m_index=0x64
+m_shotsfired=0xA2B0
+m_lifestate=0x25B
+m_dormant=0xE9
